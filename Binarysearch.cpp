@@ -10,7 +10,7 @@ void binarysearch(){
     cin >> x;
     int low = 0;
     int high = npanjang-1;
-    
+    int mid = (low + high)/2;
 }
 
 int main(){
