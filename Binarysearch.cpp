@@ -15,6 +15,10 @@ void binarysearch(){
         if (element[mid] == x){
             cout << "Ditemukan"<<endl;
         }
+        if (x < element[mid]){
+            high = mid-1;
+        }
+       
     }while(low <= high);
 }
 
