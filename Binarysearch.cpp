@@ -21,8 +21,11 @@ void binarysearch(){
         if (x>element[mid]){
             low = mid +1;
         }
-       
+
     }while(low <= high);
+    if (low > high){
+        cout <<x<< "Tidak Ditemukan" << endl;
+    }
 }
 
 int main(){
