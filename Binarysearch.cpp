@@ -8,6 +8,7 @@ int x;
 void binarysearch(){
     cout <<"masukkan element yang ingin dicari = ";
     cin >> x;
+    int low = 0;
 }
 
 int main(){
